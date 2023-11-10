@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-
+    // php artisan make model -rcm
     const STATUS_DRAFT = 'DRAFT';
     const STATUS_PUBLISED = 'PUBLISED';
     protected $fillable = [
